@@ -2,4 +2,9 @@
 <resources>
     <string name="app_name">НМедиа</string>
     <string name="hello">Привет мир!</string>
+    <string name="description_post_author_avatar">Аватар автора поста</string>
+    <string name="description_post_menu">Меню поста</string>
+    <string name="like_icon_desc">Лайк</string>
+    <string name="repost_icon_desc">Поделиться</string>
+    <string name="views_icon_desc">Просмотры</string>
 </resources>
