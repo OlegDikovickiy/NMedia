@@ -5,8 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/common_spacing"
-    tools:context=".MainActivity">
+    android:padding="@dimen/common_spacing">
 
 
     <ImageView
@@ -17,7 +16,7 @@
         android:contentDescription="@string/description_post_author_avatar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@sample/posts_avatars" />
+        android:src="@drawable/netology"/>
 
     <TextView
         android:id="@+id/author"
@@ -32,7 +31,7 @@
         app:layout_constraintStart_toEndOf="@id/avatar"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
-        tools:text="@sample/posts.json/data/author" />
+        android:text="Author" />
 
     <TextView
         android:id="@+id/published"
@@ -45,7 +44,7 @@
         app:layout_constraintEnd_toStartOf="@id/menu"
         app:layout_constraintStart_toEndOf="@id/avatar"
         app:layout_constraintTop_toBottomOf="@id/author"
-        tools:text="@sample/posts.json/data/published" />
+        android:text="Published" />
 
     <ImageButton
         android:id="@+id/menu"
@@ -75,7 +74,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/barrier"
-        tools:text="@sample/posts.json/data/content" />
+        android:text="Post content goes here" />
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier2"
@@ -92,7 +91,7 @@
         android:layout_height="20dp"
         android:layout_marginTop="@dimen/common_spacing"
         android:contentDescription="@string/like_icon_desc"
-        android:src="@drawable/favorite"
+        android:src="@drawable/ic_like"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/barrier2"
         app:tint="#000000" />
